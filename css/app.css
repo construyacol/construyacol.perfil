@@ -1,0 +1,170 @@
+#menu{
+float: left;
+left: 50%;
+list-style-type: none;
+margin: 0 auto;
+padding:0;
+position: relative;
+
+}
+#menu li{
+	float: left;
+	position: relative;
+	right: 50%;
+}
+.contenedor2{
+	clear: both;
+	float: left;
+	overflow: hidden;
+	width: 100%
+
+}
+
+
+
+
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+.fondo{
+	height: 100%;
+	background-color: #F7F7F9;
+}
+.fondo2{
+	background-color: #F7F7F9;
+}
+#header-container{
+	background-color: #3A4B53;
+	color: white;
+}
+.row{
+	border: 1px solid redA;
+}
+.container-fluid{
+	border: 1px solid redA;
+}
+.columna{
+	border: 1px solid blueA;
+}
+.menu{
+	height: 60px;
+}
+.logo{
+	padding-left: 0;
+}
+
+.fondo{
+	background-color: #F6F7F9;
+}
+.cabeza{
+	background-color: white;
+}
+.top-menu{
+	background-color: #F7F7F9; 
+	padding-left: 6%;
+	padding-right: 6%;
+
+
+}
+#menu-container{
+	padding: 0;
+}
+.menu-fixed {
+	position: fixed;
+	z-index: 1000;
+	top: 0;
+	width: 100%;
+
+}
+.perfil{
+	
+	height: 200px;
+	padding-top: 20px;
+	
+}
+
+.fotoPerfil{
+	border-radius: 50%;
+}
+
+article{
+
+	height: 100px;
+	text-align: center;
+	margin: 0px;
+
+}
+
+.containerc{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.contenedorArticulo{
+	display: flex;
+	flex-wrap: wrap;
+	width: 260px;
+	height: 200px;
+	cursor: pointer;	
+	margin-top: 20px;
+	background-color: #F7F7F9;
+	-webkit-box-shadow: 4px 8px 24px -4px rgba(0,0,0,0.56);
+-moz-box-shadow: 4px 8px 24px -4px rgba(0,0,0,0.56);
+box-shadow: 4px 8px 24px -4px rgba(0,0,0,0.56);
+
+}
+.imagenPortafolio{
+	width: 260px;
+	height: 150px;
+}
+
+.tituloPortafolio{
+height: 50px;
+background-color: #F7F7F9;
+width: 100%;
+padding-top: 10px;
+}
+.verMas{
+	opacity: 0;
+	background-color: #f5511e;
+	border-radius: 50%;
+	height: 25px;
+	width: 25px;
+	text-align: center;
+	color: white;
+	position: absolute;
+	margin-top: 140px;
+	margin-left: 125px;
+}
+#descripcion{
+	opacity: 0;
+	text-align: justify;
+	width: 100%;
+	padding: 10px;
+}
+.transicion{
+	transition: 0.3s;
+}
+.contenedorArticulo:hover{
+	height: 250px;
+}
+
+.contenedorArticulo:hover #descripcion{
+	opacity: 1;
+}
+
+.contenedorArticulo:hover #verMas{
+	opacity: 1;
+}
+
+.contenedorArticulo:hover #titulo{
+	margin-top: 15px;
+}
+
+.transicion{
+	transition: 0.3s;
+}
+.Construcción{
+	color: #f5511e;
+}
